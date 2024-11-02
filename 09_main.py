@@ -16,6 +16,9 @@ current_index = 0
 # Initialize pygame mixer
 pygame.mixer.init()
 
+# Global variable to track continuous playback
+continuous_playback = False
+
 def remove_leading_numbers_and_spaces(input_string):
     pattern = r'^\d+\s+'
     return re.sub(pattern, '', input_string)
@@ -79,6 +82,21 @@ def play_audio():
     else:
         print(f"Audio file not found: {audio_file}")
 
+def toggle_continuous_playback():
+    global continuous_playback
+    continuous_playback = not continuous_playback
+    if continuous_playback:
+        continuous_play_button.config(text="Stop Continuous Play")
+        play_next_audio()
+    else:
+        continuous_play_button.config(text="Continuous Play")
+        pygame.mixer.music.stop()
+
+def play_next_audio():
+    if continuous_playback:
+        play_audio()
+        root.after(4000, play_next_audio)  # Schedule next playback after 5 seconds
+
 # Create main window
 root = tk.Tk()
 root.title("Japanese Sentences")
@@ -93,12 +111,12 @@ ja_sentence_var = tk.StringVar()
 en_translation_var = tk.StringVar()
 
 # Create a larger font for Japanese sentences
-large_font = tkfont.Font(family="TkDefaultFont", size=16)
+large_font = tkfont.Font(family="TkDefaultFont", size=18)
 
 # Create widgets
 combo = ttk.Combobox(root, values=[item[0] for item in data], state="readonly")
 combo.set("Select a number")
-combo.bind("&lt;&lt;ComboboxSelected&gt;&gt;", on_combo_select)
+combo.bind("<<ComboboxSelected>>", on_combo_select)
 
 number_label = ttk.Label(root, text="Number:")
 number_entry = ttk.Entry(root, textvariable=number_var, state="readonly")
@@ -115,6 +133,7 @@ en_translation_entry = ttk.Entry(root, textvariable=en_translation_var, state="r
 prev_button = ttk.Button(root, text="Previous", command=prev_item)
 next_button = ttk.Button(root, text="Next", command=next_item)
 play_button = ttk.Button(root, text="Play Audio", command=play_audio)
+continuous_play_button = ttk.Button(root, text="Continuous Play", command=toggle_continuous_playback)
 
 # Layout widgets
 combo.grid(row=0, column=0, columnspan=2, pady=5, sticky="ew")
@@ -133,7 +152,8 @@ en_translation_entry.grid(row=4, column=1, sticky="ew", pady=2)
 
 prev_button.grid(row=5, column=0, pady=5, sticky="ew")
 next_button.grid(row=5, column=1, pady=5, sticky="ew")
-play_button.grid(row=6, column=0, columnspan=2, pady=5, sticky="ew")
+play_button.grid(row=6, column=0, pady=5, sticky="ew")
+continuous_play_button.grid(row=6, column=1, pady=5, sticky="ew")
 
 # Configure column weights
 root.columnconfigure(1, weight=1)

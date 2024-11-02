@@ -8,7 +8,7 @@ import random
 load_dotenv()
 api_key = os.getenv("ELEVEN_API_KEY")
 
-db = './ja-5-words-complete.txt'
+db = './ja-5000-words-complete.txt'
 
 kks = kakasi()
 kks.setMode('J', 'H')  # Japanese to Kana
