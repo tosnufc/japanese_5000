@@ -3,6 +3,7 @@ from tkinter import ttk
 import re
 import pygame
 import os
+from tkinter import font as tkfont
 
 db = './ja-5000-words-complete.txt'
 audio_folder = './voice'  # Folder containing mp3 files
@@ -71,7 +72,7 @@ def on_combo_select(event):
 
 def play_audio():
     num = number_var.get()
-    audio_file = os.path.join(audio_folder, f"elevenlab_ja_voice_{num}.mp3")
+    audio_file = os.path.join(audio_folder, f"{num}.mp3")
     if os.path.exists(audio_file):
         pygame.mixer.music.load(audio_file)
         pygame.mixer.music.play()
@@ -91,10 +92,13 @@ word_var = tk.StringVar()
 ja_sentence_var = tk.StringVar()
 en_translation_var = tk.StringVar()
 
+# Create a larger font for Japanese sentences
+large_font = tkfont.Font(family="TkDefaultFont", size=16)
+
 # Create widgets
 combo = ttk.Combobox(root, values=[item[0] for item in data], state="readonly")
 combo.set("Select a number")
-combo.bind("<<ComboboxSelected>>", on_combo_select)
+combo.bind("&lt;&lt;ComboboxSelected&gt;&gt;", on_combo_select)
 
 number_label = ttk.Label(root, text="Number:")
 number_entry = ttk.Entry(root, textvariable=number_var, state="readonly")
@@ -103,7 +107,7 @@ word_label = ttk.Label(root, text="Word:")
 word_entry = ttk.Entry(root, textvariable=word_var, state="readonly")
 
 ja_sentence_label = ttk.Label(root, text="Japanese Sentence:")
-ja_sentence_entry = ttk.Entry(root, textvariable=ja_sentence_var, state="readonly", width=50)
+ja_sentence_entry = ttk.Entry(root, textvariable=ja_sentence_var, state="readonly", width=50, font=large_font)
 
 en_translation_label = ttk.Label(root, text="English Translation:")
 en_translation_entry = ttk.Entry(root, textvariable=en_translation_var, state="readonly", width=50)
