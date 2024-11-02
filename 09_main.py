@@ -1,13 +1,19 @@
 import tkinter as tk
 from tkinter import ttk
 import re
+import pygame
+import os
 
 db = './ja-5000-words-complete.txt'
+audio_folder = './voice'  # Folder containing mp3 files
 numbers = []
 words = []
 ja_sentences = []
 en_translations = []
 current_index = 0
+
+# Initialize pygame mixer
+pygame.mixer.init()
 
 def remove_leading_numbers_and_spaces(input_string):
     pattern = r'^\d+\s+'
@@ -63,6 +69,15 @@ def on_combo_select(event):
             update_display()
             break
 
+def play_audio():
+    num = number_var.get()
+    audio_file = os.path.join(audio_folder, f"elevenlab_ja_voice_{num}.mp3")
+    if os.path.exists(audio_file):
+        pygame.mixer.music.load(audio_file)
+        pygame.mixer.music.play()
+    else:
+        print(f"Audio file not found: {audio_file}")
+
 # Create main window
 root = tk.Tk()
 root.title("Japanese Sentences")
@@ -95,6 +110,7 @@ en_translation_entry = ttk.Entry(root, textvariable=en_translation_var, state="r
 
 prev_button = ttk.Button(root, text="Previous", command=prev_item)
 next_button = ttk.Button(root, text="Next", command=next_item)
+play_button = ttk.Button(root, text="Play Audio", command=play_audio)
 
 # Layout widgets
 combo.grid(row=0, column=0, columnspan=2, pady=5, sticky="ew")
@@ -113,6 +129,7 @@ en_translation_entry.grid(row=4, column=1, sticky="ew", pady=2)
 
 prev_button.grid(row=5, column=0, pady=5, sticky="ew")
 next_button.grid(row=5, column=1, pady=5, sticky="ew")
+play_button.grid(row=6, column=0, columnspan=2, pady=5, sticky="ew")
 
 # Configure column weights
 root.columnconfigure(1, weight=1)
