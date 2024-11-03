@@ -149,6 +149,9 @@ next_button = ttk.Button(root, text="Next", command=next_item)
 play_button = ttk.Button(root, text="Play Audio", command=play_audio)
 continuous_play_button = ttk.Button(root, text="Continuous Play", command=toggle_continuous_playback)
 
+free_text_label = ttk.Label(root, text="Practice Typing:   ")
+free_text_entry = ttk.Entry(root, width=50, font=large_font)
+
 # Layout widgets
 combo.grid(row=0, column=0, pady=5, sticky="e")
 
@@ -165,8 +168,12 @@ next_button.grid(row=3, column=1, pady=5, sticky="ew")
 play_button.grid(row=4, column=0, pady=5, sticky="ew")
 continuous_play_button.grid(row=4, column=1, pady=5, sticky="ew")
 
+free_text_label.grid(row=5, column=0, sticky="e", pady=2)
+free_text_entry.grid(row=5, column=1, columnspan=2, sticky="ew", pady=5)
+
 # Configure column weights
 root.columnconfigure(1, weight=1)
+root.rowconfigure(5, weight=1)
 
 # Load the last used number and set the current index
 last_number = load_last_number()
