@@ -144,8 +144,8 @@ ja_sentence_entry = ttk.Entry(root, textvariable=ja_sentence_var, state="readonl
 en_translation_label = ttk.Label(root, text="English Translation:")
 en_translation_entry = ttk.Entry(root, textvariable=en_translation_var, state="readonly", width=50, font=mid_font)
 
-prev_button = ttk.Button(root, text="Previous", command=prev_item)
-next_button = ttk.Button(root, text="Next", command=next_item)
+prev_button = ttk.Button(root, text="<< Previous", command=prev_item)
+next_button = ttk.Button(root, text="Next >>", command=next_item)
 play_button = ttk.Button(root, text="Play Audio", command=play_audio)
 continuous_play_button = ttk.Button(root, text="Continuous Play", command=toggle_continuous_playback)
 
