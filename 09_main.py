@@ -7,6 +7,7 @@ from tkinter import font as tkfont
 
 db = './ja-5000-words-complete.txt'
 audio_folder = './voice'  # Folder containing mp3 files
+last_number_file = 'last_number.txt'  # File to store the last used number
 numbers = []
 words = []
 ja_sentences = []
@@ -51,6 +52,18 @@ def update_display():
     ja_sentence_var.set(ja_sentence)
     en_translation_var.set(en_translation)
     combo.set(num)
+    save_last_number(num)
+
+def save_last_number(num):
+    with open(last_number_file, 'w') as f:
+        f.write(num)
+
+def load_last_number():
+    try:
+        with open(last_number_file, 'r') as f:
+            return f.read().strip()
+    except FileNotFoundError:
+        return '1'  # Default to the first number if file doesn't exist
 
 def next_item():
     global current_index
@@ -157,6 +170,10 @@ continuous_play_button.grid(row=6, column=1, pady=5, sticky="ew")
 
 # Configure column weights
 root.columnconfigure(1, weight=1)
+
+# Load the last used number and set the current index
+last_number = load_last_number()
+current_index = next((i for i, (num, _, _, _) in enumerate(data) if num == last_number), 0)
 
 # Initialize display
 update_display()
