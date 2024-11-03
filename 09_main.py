@@ -125,9 +125,10 @@ en_translation_var = tk.StringVar()
 
 # Create a larger font for Japanese sentences
 large_font = tkfont.Font(family="TkDefaultFont", size=18)
+mid_font = tkfont.Font(family="TkDefaultFont", size=14)
 
 # Create widgets
-combo = ttk.Combobox(root, values=[item[0] for item in data], state="readonly")
+combo = ttk.Combobox(root, values=[item[0] for item in data], state="readonly", width=5)
 combo.set("Select a number")
 combo.bind("<<ComboboxSelected>>", on_combo_select)
 
@@ -135,13 +136,13 @@ number_label = ttk.Label(root, text="Number:")
 number_entry = ttk.Entry(root, textvariable=number_var, state="readonly")
 
 word_label = ttk.Label(root, text="Word:")
-word_entry = ttk.Entry(root, textvariable=word_var, state="readonly")
+word_entry = ttk.Entry(root, textvariable=word_var, state="readonly", font=mid_font)
 
 ja_sentence_label = ttk.Label(root, text="Japanese Sentence:")
 ja_sentence_entry = ttk.Entry(root, textvariable=ja_sentence_var, state="readonly", width=50, font=large_font)
 
 en_translation_label = ttk.Label(root, text="English Translation:")
-en_translation_entry = ttk.Entry(root, textvariable=en_translation_var, state="readonly", width=50)
+en_translation_entry = ttk.Entry(root, textvariable=en_translation_var, state="readonly", width=50, font=mid_font)
 
 prev_button = ttk.Button(root, text="Previous", command=prev_item)
 next_button = ttk.Button(root, text="Next", command=next_item)
@@ -149,24 +150,20 @@ play_button = ttk.Button(root, text="Play Audio", command=play_audio)
 continuous_play_button = ttk.Button(root, text="Continuous Play", command=toggle_continuous_playback)
 
 # Layout widgets
-combo.grid(row=0, column=0, columnspan=2, pady=5, sticky="ew")
+combo.grid(row=0, column=0, pady=5, sticky="e")
 
-number_label.grid(row=1, column=0, sticky="e", pady=2)
-number_entry.grid(row=1, column=1, sticky="ew", pady=2)
+word_entry.grid(row=0, column=1, sticky="ew", pady=2)
 
-word_label.grid(row=2, column=0, sticky="e", pady=2)
-word_entry.grid(row=2, column=1, sticky="ew", pady=2)
+ja_sentence_label.grid(row=1, column=0, sticky="e", pady=2)
+ja_sentence_entry.grid(row=1, column=1, columnspan=2, sticky="ew", pady=2)
 
-ja_sentence_label.grid(row=3, column=0, sticky="e", pady=2)
-ja_sentence_entry.grid(row=3, column=1, sticky="ew", pady=2)
+en_translation_label.grid(row=2, column=0, sticky="e", pady=2)
+en_translation_entry.grid(row=2, column=1, columnspan=2, sticky="ew", pady=2)
 
-en_translation_label.grid(row=4, column=0, sticky="e", pady=2)
-en_translation_entry.grid(row=4, column=1, sticky="ew", pady=2)
-
-prev_button.grid(row=5, column=0, pady=5, sticky="ew")
-next_button.grid(row=5, column=1, pady=5, sticky="ew")
-play_button.grid(row=6, column=0, pady=5, sticky="ew")
-continuous_play_button.grid(row=6, column=1, pady=5, sticky="ew")
+prev_button.grid(row=3, column=0, pady=5, sticky="ew")
+next_button.grid(row=3, column=1, pady=5, sticky="ew")
+play_button.grid(row=4, column=0, pady=5, sticky="ew")
+continuous_play_button.grid(row=4, column=1, pady=5, sticky="ew")
 
 # Configure column weights
 root.columnconfigure(1, weight=1)
