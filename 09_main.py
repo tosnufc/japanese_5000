@@ -70,12 +70,14 @@ def next_item():
     if current_index < len(data) - 1:
         current_index += 1
         update_display()
+        free_text_entry.delete(0,'end')
 
 def prev_item():
     global current_index
     if current_index > 0:
         current_index -= 1
         update_display()
+        free_text_entry.delete(0,'end')
 
 def on_combo_select(event):
     global current_index
