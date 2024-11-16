@@ -3,3 +3,4 @@
 .env
 *.mp3
 ja-5-words-complete.txt
+/voice
