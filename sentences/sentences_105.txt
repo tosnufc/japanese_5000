@@ -1,0 +1,19 @@
+ja_01: 日本語がだんだん分かるようになりました。
+en_01: I have gradually come to understand Japanese.
+kn_01: にほんごがだんだんわかるようになりました。
+
+ja_02: 先生の説明を聞いて、全部分かりました。
+en_02: I understood everything after listening to the teacher's explanation.
+kn_02: せんせいのせつめいをきいて、ぜんぶわかりました。
+
+ja_03: この問題はとても難しくて分かりません。
+en_03: This problem is very difficult and I do not understand it.
+kn_03: このもんだいはとてもむずかしくてわかりません。
+
+ja_04: 彼の気持ちが少し分かる気がします。
+en_04: I think I understand his feelings a little.
+kn_04: かれのきもちがすこしわかるきがします。
+
+ja_05: その映画のメッセージが分かりますか？
+en_05: Do you understand the message of that movie?
+kn_05: そのえいがのメッセージがわかりますか？

@@ -1,0 +1,19 @@
+ja_01: このケーキはすごく美味しいです。
+en_01: This cake is really delicious.
+kn_01: このケーキはすごくおいしいです。
+
+ja_02: 富士山の眺めはすごいですね。
+en_02: The view of Mount Fuji is fantastic, isn't it?
+kn_02: ふじさんのながめはすごいですね。
+
+ja_03: 彼のすごい演技に感動しました。
+en_03: I was impressed by his amazing performance.
+kn_03: かれのすごいえんぎにかんどうしました。
+
+ja_04: 彼女はすごい才能を持っています。
+en_04: She has amazing talent.
+kn_04: かのじょはすごいさいのうをもっています。
+
+ja_05: 台風の風がすごかったです。
+en_05: The wind from the typhoon was terrible.
+kn_05: たいふうのかぜがすごかったです。

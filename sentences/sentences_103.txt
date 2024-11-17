@@ -1,0 +1,19 @@
+ja_01: そこに本を置いてください。
+en_01: Please put the book there.
+kn_01: そこにほんをおいてください。
+
+ja_02: そこはとても静かです。
+en_02: It is very quiet there.
+kn_02: そこはとてもしずかです。
+
+ja_03: そこへ行くにはどうすればいいですか？
+en_03: How can I get there?
+kn_03: そこへいくにはどうすればいいですか？
+
+ja_04: そこは私たちの秘密の場所です。
+en_04: That is our secret place.
+kn_04: そこはわたしたちのひみつのばしょです。
+
+ja_05: 彼はそこから手紙を送った。
+en_05: He sent a letter from there.
+kn_05: かれはそこからてがみをおくった。

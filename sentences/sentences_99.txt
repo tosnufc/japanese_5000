@@ -1,0 +1,19 @@
+ja_01: 彼は毎朝、公園に散歩に出る。
+en_01: He goes out for a walk in the park every morning.
+kn_01: かれはまいあさ、こうえんにさんぽにでる。
+
+ja_02: 新しい映画が今週末に劇場に出る。
+en_02: A new movie is coming out in theaters this weekend.
+kn_02: あたらしいえいががこんしゅうまつにげきじょうにでる。
+
+ja_03: 私は会議に出るためにオフィスに行った。
+en_03: I went to the office to attend the meeting.
+kn_03: わたしはかいぎにでるためにオフィスにいった。
+
+ja_04: 彼は夕食の後、すぐに外に出た。
+en_04: He went out immediately after dinner.
+kn_04: かれはゆうしょくのあと、すぐにそとにでた。
+
+ja_05: この本は来月、書店に出る予定です。
+en_05: This book is scheduled to be released in bookstores next month.
+kn_05: このほんはらいげつ、しょてんにでるよていです。

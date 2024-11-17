@@ -1,0 +1,19 @@
+ja_01: 将来のことを考えると不安になります。
+en_01: When I think about the future, I become anxious.
+kn_01: しょうらいのことをかんがえるとふあんになります。
+
+ja_02: 彼の言葉を深く考えてみる。
+en_02: I try to think deeply about his words.
+kn_02: かれのことばをふかくかんがえてみる。
+
+ja_03: 考えがまとまらないときは散歩をします。
+en_03: When I can't organize my thoughts, I take a walk.
+kn_03: かんがえがまとまらないときはさんぽをします。
+
+ja_04: 新しいアイデアを考え出すのが好きです。
+en_04: I like to think up new ideas.
+kn_04: あたらしいアイデアをかんがえだすのがすきです。
+
+ja_05: 冷静に考えることが重要です。
+en_05: It's important to think calmly.
+kn_05: れいせいにかんがえることがじゅうようです。

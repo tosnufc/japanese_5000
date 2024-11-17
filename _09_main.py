@@ -4,6 +4,8 @@ import re
 import pygame
 import os
 from tkinter import font as tkfont
+from tkinter import scrolledtext
+from _06_sentence_generator import openai_generator
 
 db = './ja-5000-words-complete.txt'
 audio_folder = './voice'  # Folder containing mp3 files
@@ -45,6 +47,13 @@ def load_data():
 
     return list(zip(numbers, words, ja_sentences, en_translations))
 
+def load_more_examples(num):
+    filename = f"sentences/sentences_{num}.txt"
+    if os.path.exists(filename):
+        with open(filename, 'r', encoding='utf-8') as file:
+            return file.read()
+    return "Click 'More examples' button to generate more examples"
+
 def update_display():
     num, word, ja_sentence, en_translation = data[current_index]
     number_var.set(num)
@@ -53,6 +62,8 @@ def update_display():
     en_translation_var.set(en_translation)
     combo.set(num)
     save_last_number(num)
+    more_examples_text.delete('1.0', tk.END)
+    more_examples_text.insert(tk.END, load_more_examples(num))
 
 def save_last_number(num):
     with open(last_number_file, 'w') as f:
@@ -112,6 +123,10 @@ def play_next_audio():
         play_audio()
         root.after(4000, play_next_audio)  # Schedule next playback after 5 seconds
 
+def generate_more_examples():
+    openai_generator()
+    update_display()
+
 # Create main window
 root = tk.Tk()
 root.title("Japanese Sentences")
@@ -154,6 +169,10 @@ continuous_play_button = ttk.Button(root, text="Continuous Play", command=toggle
 free_text_label = ttk.Label(root, text="Practice Typing:   ")
 free_text_entry = ttk.Entry(root, width=50, font=large_font)
 
+# more_examples_label = ttk.Label(root, text="More Examples:   ")
+more_examples_button = ttk.Button(root, text="More Example", command=generate_more_examples)
+more_examples_text = scrolledtext.ScrolledText(root, width=50, height=10, font=mid_font, wrap=tk.WORD)
+
 # Layout widgets
 combo.grid(row=0, column=0, pady=5, sticky="e")
 
@@ -173,9 +192,12 @@ continuous_play_button.grid(row=4, column=1, pady=5, sticky="ew")
 free_text_label.grid(row=5, column=0, sticky="e", pady=2)
 free_text_entry.grid(row=5, column=1, columnspan=2, sticky="ew", pady=5)
 
+more_examples_button.grid(row=6, column=0, sticky="new", pady=2)
+more_examples_text.grid(row=6, column=1, columnspan=2, sticky="ew", pady=5)
+
 # Configure column weights
 root.columnconfigure(1, weight=1)
-root.rowconfigure(5, weight=1)
+root.rowconfigure(6, weight=1)
 
 # Load the last used number and set the current index
 last_number = load_last_number()

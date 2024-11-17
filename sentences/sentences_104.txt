@@ -1,0 +1,19 @@
+ja_01: 明日、映画を見に行こう。
+en_01: Let's go watch a movie tomorrow.
+kn_01: あした、えいがをみにいこう。
+
+ja_02: この問題を一緒に考えよう。
+en_02: Let's think about this problem together.
+kn_02: このもんだいをいっしょにかんがえよう。
+
+ja_03: 今週末、旅行に行こうよ。
+en_03: Let's go on a trip this weekend.
+kn_03: こんしゅうまつ、りょこうにいこうよ。
+
+ja_04: 夜ご飯を作ろうか？
+en_04: Shall we make dinner?
+kn_04: よるごはんをつくろうか？
+
+ja_05: 夏になったら海に行こうよ。
+en_05: Let's go to the beach when summer comes.
+kn_05: なつになったらうみにいこうよ。

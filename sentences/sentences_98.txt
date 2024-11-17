@@ -1,0 +1,19 @@
+ja_01: 彼は大きなかばんを持っている。
+en_01: He is holding a large bag.
+kn_01: かれはおおきなかばんをもっている。
+
+ja_02: 明日、会議で資料を持ってきてください。
+en_02: Please bring the documents to the meeting tomorrow.
+kn_02: あした、かいぎでしりょうをもってきてください。
+
+ja_03: 彼女は夢を持っている。
+en_03: She has a dream.
+kn_03: かのじょはゆめをもっている。
+
+ja_04: 強い意志を持ち続けることが大切です。
+en_04: It's important to keep holding onto strong will.
+kn_04: つよいいしをもちつづけることがたいせつです。
+
+ja_05: その本を持っていってもいいですか？
+en_05: Can I take that book with me?
+kn_05: そのほんをもっていってもいいですか？

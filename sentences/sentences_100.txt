@@ -1,0 +1,19 @@
+ja_01: 健康のために毎日運動しています。
+en_01: I exercise every day for my health.
+kn_01: けんこうのためにまいにちうんどうしています。
+
+ja_02: 子供たちのためにお菓子を作ります。
+en_02: I make sweets for the children.
+kn_02: こどもたちのためにおかしをつくります。
+
+ja_03: 日本語を学ぶために留学しました。
+en_03: I studied abroad to learn Japanese.
+kn_03: にほんごをまなぶためにりゅうがくしました。
+
+ja_04: 未来のために貯金を始めました。
+en_04: I started saving money for the future.
+kn_04: みらいのためにちょきんをはじめました。
+
+ja_05: 自分のために決断を下しました。
+en_05: I made a decision for myself.
+kn_05: じぶんのためにけつだんをくだしました。
