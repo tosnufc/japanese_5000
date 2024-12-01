@@ -1,0 +1,19 @@
+ja_01: 先生は研究を続けております。
+en_01: The teacher is continuing the research.
+kn_01: せんせいはけんきゅうをつづけております。
+
+ja_02: お客様のために最善を尽くしております。
+en_02: We are doing our best for the customer.
+kn_02: おきゃくさまのためにさいぜんをつくしております。
+
+ja_03: 私たちは新しいプロジェクトに取り組んでおります。
+en_03: We are working on a new project.
+kn_03: わたしたちはあたらしいぷろじぇくとにとりくんでおります。
+
+ja_04: 毎日少しずつ改善を進めております。
+en_04: We are making improvements little by little every day.
+kn_04: まいにちすこしずつかいぜんをすすめております。
+
+ja_05: お客様のご意見を大切にしております。
+en_05: We value the opinions of our customers.
+kn_05: おきゃくさまのごいけんをたいせつにしております。

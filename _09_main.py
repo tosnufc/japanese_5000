@@ -189,11 +189,11 @@ next_button.grid(row=3, column=1, pady=5, sticky="ew")
 play_button.grid(row=4, column=0, pady=5, sticky="ew")
 continuous_play_button.grid(row=4, column=1, pady=5, sticky="ew")
 
-free_text_label.grid(row=5, column=0, sticky="e", pady=2)
-free_text_entry.grid(row=5, column=1, columnspan=2, sticky="ew", pady=5)
+free_text_label.grid(row=6, column=0, sticky="e", pady=2)
+free_text_entry.grid(row=6, column=1, columnspan=2, sticky="ew", pady=5)
 
-more_examples_button.grid(row=6, column=0, sticky="new", pady=2)
-more_examples_text.grid(row=6, column=1, columnspan=2, sticky="ew", pady=5)
+more_examples_button.grid(row=5, column=0, sticky="new", pady=2)
+more_examples_text.grid(row=5, column=1, columnspan=2, sticky="ew", pady=5)
 
 # Configure column weights
 root.columnconfigure(1, weight=1)
