@@ -1,0 +1,19 @@
+ja_01: 彼女は日本の文化について学んでいます。
+en_01: She is studying about Japanese culture.
+kn_01: かのじょはにほんのぶんかについてまなんでいます。
+
+ja_02: その映画についてどう思いますか？
+en_02: What do you think about that movie?
+kn_02: そのえいがについてどうおもいますか？
+
+ja_03: 自然保護についての本を読みました。
+en_03: I read a book concerning environmental conservation.
+kn_03: しぜんほごについてのほんをよみました。
+
+ja_04: このプロジェクトについて説明してください。
+en_04: Please explain about this project.
+kn_04: このぷろじぇくとについてせつめいしてください。
+
+ja_05: 最近の天気について話しましょう。
+en_05: Let's talk about the recent weather.
+kn_05: さいきんのてんきについてはなしましょう。

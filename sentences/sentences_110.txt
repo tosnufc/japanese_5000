@@ -1,0 +1,19 @@
+ja_01: 彼は新しいゲームを作っています。
+en_01: He is creating a new game.
+kn_01: かれはあたらしいゲームをつくっています。
+
+ja_02: 私はこの公園で雪だるまを作った。
+en_02: I made a snowman in this park.
+kn_02: わたしはこのこうえんでゆきだるまをつくった。
+
+ja_03: 母は毎晩夕食を作ります。
+en_03: My mother cooks dinner every night.
+kn_03: はははまいばんゆうしょくをつくります。
+
+ja_04: 彼らは映画を作ることに決めた。
+en_04: They decided to make a movie.
+kn_04: かれらはえいがをつくることにきめた。
+
+ja_05: 子供たちは工作の時間にロボットを作った。
+en_05: The children made robots during craft time.
+kn_05: こどもたちはこうさくのじかんにロボットをつくった。

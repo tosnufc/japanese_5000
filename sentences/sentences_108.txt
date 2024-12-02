@@ -1,0 +1,19 @@
+ja_01: 雨が降ってきた。それで、試合は中止になった。
+en_01: It started raining. So, the match was canceled.
+kn_01: あめがふってきた。それで、しあいはちゅうしになった。
+
+ja_02: 彼が怪我をした。それで、病院に行ったんだ。
+en_02: He got injured. That is why he went to the hospital.
+kn_02: かれがけがをした。それで、びょういんにいったんだ。
+
+ja_03: 彼女は忙しい。それで、来られなかった。
+en_03: She was busy. That is why she couldn't come.
+kn_03: かのじょはいそがしい。それで、こられなかった。
+
+ja_04: 料理が焦げた。それで、新しい食材を買うことにした。
+en_04: The food got burnt. So, I decided to buy new ingredients.
+kn_04: りょうりがこげた。それで、あたらしいしょくざいをかうことにした。
+
+ja_05: お金を忘れた。それで、友達に借りたんだ。
+en_05: I forgot my money. That's why I borrowed from a friend.
+kn_05: おかねをわすれた。それで、ともだちにかりたんだ。

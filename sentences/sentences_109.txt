@@ -1,0 +1,19 @@
+ja_01: 教室に入る前に手を洗ってください。
+en_01: Please wash your hands before entering the classroom.
+kn_01: きょうしつに はいる まえに てを あらって ください。
+
+ja_02: 彼は新しいクラブに入ることを決めた。
+en_02: He decided to join a new club.
+kn_02: かれは あたらしい くらぶに はいることを きめた。
+
+ja_03: 雨が降り始めたので、家に早く入ることにしました。
+en_03: Since it started raining, I decided to go into the house early.
+kn_03: あめが ふりはじめたので、いえに はやく はいる ことに しました。
+
+ja_04: パスワードを入力してログインしてください。
+en_04: Please enter the password and log in.
+kn_04: ぱすわーどを にゅうりょくして ろぐいん してください。
+
+ja_05: この靴は小さくて、足が入らない。
+en_05: These shoes are too small, and my feet don’t fit.
+kn_05: この くつは ちいさくて、あしが はいらない。
