@@ -1,0 +1,21 @@
+Sure, here are five sentences demonstrating the use of てみる (te miru):
+
+ja_01: 新しいレストランで食べてみる。
+en_01: I will try eating at the new restaurant.
+kn_01: あたらしいレストランでたべてみる。
+
+ja_02: 日本語で日記を書いてみる。
+en_02: I will try writing a diary in Japanese.
+kn_02: にほんごでにっきをかいてみる。
+
+ja_03: その服を試着してみる。
+en_03: I will try on those clothes.
+kn_03: そのふくをしちゃくしてみる。
+
+ja_04: 一人で旅行してみる。
+en_04: I will try traveling alone.
+kn_04: ひとりでりょこうしてみる。
+
+ja_05: 難しいパズルを解いてみる。
+en_05: I will try solving a difficult puzzle.
+kn_05: むずかしいパズルをといてみる。

@@ -1,0 +1,25 @@
+Certainly! Here are five sentences that demonstrate the use of the Japanese word 聞く/聴く (kiku):
+
+---
+
+ja_01: 彼は音楽を聴くのが好きです。
+en_01: He likes to listen to music.
+kn_01: かれはおんがくをきくのがすきです。
+
+ja_02: 先生の話をよく聞いてください。
+en_02: Please listen carefully to the teacher's story.
+kn_02: せんせいのはなしをよくきいてください。
+
+ja_03: 子供たちは絵本の読み聞かせを楽しんでいます。
+en_03: The children are enjoying the reading of picture books.
+kn_03: こどもたちはえほんのよみきかせをたのしんでいます。
+
+ja_04: 新しいアルバムを聴いてみましたか？
+en_04: Have you listened to the new album?
+kn_04: あたらしいあるばむをきいてみましたか？
+
+ja_05: 彼はアドバイスを聞かないことがよくあります。
+en_05: He often doesn't listen to advice.
+kn_05: かれはあどばいすをきかないことがよくあります。
+
+---
