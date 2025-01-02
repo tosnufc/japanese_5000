@@ -1,0 +1,21 @@
+Certainly! Here's how you can use てくれる to express doing something as a favor:
+
+ja_01: 弟が宿題を手伝ってくれた。
+en_01: My younger brother helped me with my homework.
+kn_01: おとうとがしゅくだいをてつだってくれた。
+
+ja_02: 友達が駅まで道案内してくれた。
+en_02: My friend guided me to the station.
+kn_02: ともだちがえきまでみちあんないしてくれた。
+
+ja_03: 母が新しい服を買ってくれた。
+en_03: My mother bought new clothes for me.
+kn_03: ははがあたらしいふくをかってくれた。
+
+ja_04: 先生が難しい質問に答えてくれた。
+en_04: The teacher answered the difficult question for me.
+kn_04: せんせいがむずかしいしつもんにこたえてくれた。
+
+ja_05: 彼女が美味しい料理を作ってくれた。
+en_05: My girlfriend made a delicious meal for me.
+kn_05: かのじょがおいしいりょうりをつくってくれた。

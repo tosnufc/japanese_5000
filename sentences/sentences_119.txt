@@ -1,0 +1,19 @@
+ja_01: このコンピューターを使うのは簡単です。
+en_01: Using this computer is easy.
+kn_01: このコンピューターをつかうのはかんたんです。
+
+ja_02: 昨日、新しいレシピを使ってカレーを作りました。
+en_02: Yesterday, I made curry using a new recipe.
+kn_02: きのう、あたらしいレシピをつかってカレーをつくりました。
+
+ja_03: 明日は会議でこの資料を使います。
+en_03: I will use these documents in tomorrow's meeting.
+kn_03: あしたはかいぎでこのしりょうをつかいます。
+
+ja_04: 彼女はよくこの辞書を使って勉強しています。
+en_04: She often studies using this dictionary.
+kn_04: かのじょはよくこのじしょをつかってべんきょうしています。
+
+ja_05: お客様、こちらのメニューをご利用いただけます。
+en_05: Esteemed customer, you are welcome to use this menu.
+kn_05: おきゃくさま、こちらのメニューをごりよういただけます。

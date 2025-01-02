@@ -1,0 +1,21 @@
+Sure! Here are five sentences using the Japanese word 場合 (baai):
+
+ja_01: 緊急の場合は、このボタンを押してください。
+en_01: In case of an emergency, please press this button.
+kn_01: きんきゅうのばあいは、このボタンをおしてください。
+
+ja_02: 事故の場合は、すぐに警察に連絡してください。
+en_02: In case of an accident, contact the police immediately.
+kn_02: じこのばあいは、すぐにけいさつにれんらくしてください。
+
+ja_03: 明日の場合、行けるかどうかわかりません。
+en_03: As for tomorrow's case, I am not sure if I can go.
+kn_03: あしたのばあい、いけるかどうかわかりません。
+
+ja_04: 難しい場合は、先生に質問しましょう。
+en_04: In case it's difficult, let's ask the teacher.
+kn_04: むずかしいばあいは、せんせいにしつもんしましょう。
+
+ja_05: パスワードを忘れた場合は、再設定してください。
+en_05: If you forget your password, please reset it.
+kn_05: パスワードをわすれたばあいは、さいせっていしてください。

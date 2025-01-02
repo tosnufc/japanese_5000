@@ -1,0 +1,20 @@
+
+ja_01: 映画を見た。そして、夕食を食べに行った。
+en_01: I watched a movie, and then went to have dinner.
+kn_01: えいがをみた。そして、ゆうしょくをたべにいった。
+
+ja_02: 本を読み終えた。そして、考えにふけった。
+en_02: I finished reading the book, and then I reflected on it.
+kn_02: ほんをよみおえた。そして、かんがえにふけった。
+
+ja_03: 友達に会った。そして、一緒にカフェに行った。
+en_03: I met a friend, and then we went to a café together.
+kn_03: ともだちにあった。そして、いっしょにカフェにいった。
+
+ja_04: 会議が終わった。そして、レポートを書き始めた。
+en_04: The meeting ended, and then I started writing the report.
+kn_04: かいぎがおわった。そして、レポートをかきはじめた。
+
+ja_05: 朝ごはんを食べた。そして、仕事に出かけた。
+en_05: I ate breakfast, and then left for work.
+kn_05: あさごはんをたべた。そして、しごとにでかけた。

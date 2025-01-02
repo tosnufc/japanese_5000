@@ -1,0 +1,19 @@
+ja_01: 昨日の話はとても面白かった。
+en_01: Yesterday's story was very interesting.
+kn_01: きのうのはなしはとてもおもしろかった。
+
+ja_02: 彼が来ると、いつも話が盛り上がります。
+en_02: When he comes, the conversation always gets lively.
+kn_02: かれがくると、いつもはなしがもりあがります。
+
+ja_03: 明日は重要な話がありますので、ご参加ください。
+en_03: There will be an important discussion tomorrow, so please join us.
+kn_03: あしたはじゅうようなはなしがありますので、ごさんかください。
+
+ja_04: 昔の話を聞かせてくれない？
+en_04: Can you tell me an old story?
+kn_04: むかしのはなしをきかせてくれない？
+
+ja_05: 私には信じられないような話です。
+en_05: This is a story that I can hardly believe.
+kn_05: わたしにはしんじられないようなはなしです。

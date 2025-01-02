@@ -1,0 +1,21 @@
+Certainly! Here are five examples demonstrating the use of ながら:
+
+ja_01: 音楽を聴きながら勉強するのが好きです。
+en_01: I like to study while listening to music.
+kn_01: おんがくをききながらべんきょうするのがすきです。
+
+ja_02: 歩きながら電話をしてはいけません。
+en_02: You must not talk on the phone while walking.
+kn_02: あるきながらでんわをしてはいけません。
+
+ja_03: 子供の頃、テレビを見ながらご飯を食べたものだ。
+en_03: When I was a child, I used to eat meals while watching TV.
+kn_03: こどものころ、てれびをみながらごはんをたべたものだ。
+
+ja_04: 明日、コーヒーを飲みながらミーティングをしましょう。
+en_04: Tomorrow, let's have a meeting over coffee.
+kn_04: あした、こーひーをのみながらみーてぃんぐをしましょう。
+
+ja_05: 先生は笑顔で話しながら授業を進めてくださいます。
+en_05: The teacher kindly proceeds with the class while speaking with a smile.
+kn_05: せんせいはえがおではなしながらじゅぎょうをすすめてくださいます。

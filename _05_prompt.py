@@ -32,7 +32,7 @@ def prompt_openai(seq):
     prompt = f"""
     You are a language teacher AI assistant.
     Your task is as follows:
-    - Generate 5 Japanese sentenses to demonstrate how the Japanese word {word} is used. You can refer to {sentence} as an example. Make sure to cover various use cases of the word.
+    - Generate 5 Japanese sentenses to demonstrate how the Japanese word {word} is used. You can refer to {sentence} as an example. Make sure to cover various use cases of the word, past, present future tenses as well as all the politeness levels e.g., casual, polite and very polite speech.
     - Translate the generated Japanese sentense to English.
     - Convert the Japanese sentense to Kana.
 
