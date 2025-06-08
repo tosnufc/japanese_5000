@@ -1,0 +1,19 @@
+ja_01: 彼はいつも落ち着いた風に話します。
+en_01: He always speaks in a calm manner.
+kn_01: かれはいつもおちついたふうにはなします。
+
+ja_02: あの映画はまるで夢のような風でした。
+en_02: That movie was like a dream.
+kn_02: あのえいがはまるでゆめのようなふうでした。
+
+ja_03: 彼女は日本人の風に服を着ています。
+en_03: She dresses in a Japanese style.
+kn_03: かのじょはにほんじんのふうにふくをきています。
+
+ja_04: あのような風に話せるようになりたいです。
+en_04: I want to be able to speak like that.
+kn_04: あのようなふうにはなせるようになりたいです。
+
+ja_05: 昔はもっと無邪気な風だった。
+en_05: In the past, I was more innocent.
+kn_05: むかしはもっとむじゃきなふうだった。
